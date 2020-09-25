@@ -31,7 +31,7 @@
         ]
       },
       "title": "Poder",
-      "format": "text/csv",
+      "format": "csv",
       "encoding": "utf-8",
       "description": "Tabela com dados dos poderes do Estado de Minas Gerais.",
       "missingValues": ["NA"],
@@ -81,7 +81,7 @@
         ]
       },
       "title": "Unidade Orçamentária",
-      "format": "text/csv",
+      "format": "csv",
       "encoding": "uft-8",
       "description": "Tabela referente aos órgãos e entidades do Estado de Minas Gerais.",
       "missingValues": ["NA"],
@@ -153,7 +153,7 @@
         ]
       },
       "title": "Despesa com Pessoal",
-      "format": "text/csv",
+      "format": "csv",
       "encoding": "uft-8",
       "description": "Tabela de dados com valores de despesas com pessoal ativo, inativo, pensionistas e contratados.",
       "missingValues": ["NA"],
@@ -205,7 +205,7 @@
       },
       "title": "Tempo mensal",
       "description": "Tabela dimensão tempo mensal.",
-      "format": "text/csv",
+      "format": "csv",
       "encoding": "uft-8",
       "missingValues": ["NA"],
       "dialect": {

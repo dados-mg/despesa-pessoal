@@ -82,7 +82,7 @@
       },
       "title": "Unidade Orçamentária",
       "format": "csv",
-      "encoding": "uft-8",
+      "encoding": "utf-8",
       "description": "Tabela referente aos órgãos e entidades do Estado de Minas Gerais.",
       "missingValues": ["NA"],
       "dialect": {
@@ -154,7 +154,7 @@
       },
       "title": "Despesa com Pessoal",
       "format": "csv",
-      "encoding": "uft-8",
+      "encoding": "utf-8",
       "description": "Tabela de dados com valores de despesas com pessoal ativo, inativo, pensionistas e contratados.",
       "missingValues": ["NA"],
       "dialect": {
@@ -206,7 +206,7 @@
       "title": "Tempo mensal",
       "description": "Tabela dimensão tempo mensal.",
       "format": "csv",
-      "encoding": "uft-8",
+      "encoding": "utf-8",
       "missingValues": ["NA"],
       "dialect": {
       "delimiter": ";"}

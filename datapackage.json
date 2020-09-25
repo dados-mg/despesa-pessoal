@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "dm-poder",
-      "path": "dm-poder.csv",
+      "path": "https://raw.githubusercontent.com/dados-mg/despesa-pessoal/master/DM_PODER_2016.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -40,7 +40,7 @@
     },
     {
       "name": "dm-unidade-orc",
-      "path": "dm-unidade-orc.csv",
+      "path": "https://raw.githubusercontent.com/dados-mg/despesa-pessoal/master/DM_UNIDADE_ORC_2016.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -90,7 +90,7 @@
     },
     {
       "name": "ft-pessoal-desp",
-      "path": "ft-pessoal-desp.csv",
+      "path": "https://raw.githubusercontent.com/dados-mg/despesa-pessoal/master/FT_PESSOAL_DESP_2016.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -162,7 +162,7 @@
     },
     {
       "name": "dm-tempo-mensal",
-      "path": "dm-tempo-mensal.csv",
+      "path": "https://raw.githubusercontent.com/dados-mg/despesa-pessoal/master/DM_TEMPO_MENSAL_2016.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [

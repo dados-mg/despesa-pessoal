@@ -1,4 +1,4 @@
-{
+﻿{
   "profile": "tabular-data-package",
   "resources": [
     {
@@ -124,28 +124,28 @@
           },
           {
             "name": "VR_ATIVO",
-            "type": "integer",
+            "type": "number",
             "format": "default",
             "description": "Despesas com pessoal ativo relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, compreendendo vencimentos e vantagens, fixas e variáveis, subsídios, incluindo as contribuições recolhidas pelo ente às entidades de previdência.",
             "title": "Valor Pessoal Ativo"
           },
           {
             "name": "VR_INATIVO",
-            "type": "integer",
+            "type": "number",
             "format": "default",
             "title": "Valor Pessoal Inativo",
             "description": "Despesas com pessoal inativo, relativas a cargos, funções ou empregos, civis, militares e de membros de Poder, com proventos da aposentadoria e reformas."
           },
           {
             "name": "VR_PENSIONISTA",
-            "type": "integer",
+            "type": "number",
             "format": "default",
             "title": "Valor Pessoal Pensionista",
             "description": "Despesas com pensionistas, relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, com pensões, inclusive as de caráter indenizatório."
           },
           {
             "name": "VR_CONTRATADO",
-            "type": "integer",
+            "type": "number",
             "format": "default",
             "title": "Valor Contratados",
             "description": "Despesas relativas à mão-de-obra constantes dos contratos de terceirização, incluindo as contribuições recolhidas pelo ente às entidades de previdência."

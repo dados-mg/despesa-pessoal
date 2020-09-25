@@ -22,7 +22,7 @@
             "description": "Código do Poder"
           },
           {
-            "name": "NOME ",
+            "name": "NOME",
             "type": "string",
             "format": "default",
             "description": "Três poderes formam o Estado: Executivo, Legislativo e Judiciário. Contém um conjunto de órgãos e entidades e atuam separadamente, com independência e harmonia. Aqui, o Ministério Público está colocado à parte.",
@@ -127,28 +127,32 @@
             "type": "number",
             "format": "default",
             "description": "Despesas com pessoal ativo relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, compreendendo vencimentos e vantagens, fixas e variáveis, subsídios, incluindo as contribuições recolhidas pelo ente às entidades de previdência.",
-            "title": "Valor Pessoal Ativo"
+            "title": "Valor Pessoal Ativo",
+            "decimalChar": ","
           },
           {
             "name": "VR_INATIVO",
             "type": "number",
             "format": "default",
             "title": "Valor Pessoal Inativo",
-            "description": "Despesas com pessoal inativo, relativas a cargos, funções ou empregos, civis, militares e de membros de Poder, com proventos da aposentadoria e reformas."
+            "description": "Despesas com pessoal inativo, relativas a cargos, funções ou empregos, civis, militares e de membros de Poder, com proventos da aposentadoria e reformas.",
+            "decimalChar": ","
           },
           {
             "name": "VR_PENSIONISTA",
             "type": "number",
             "format": "default",
             "title": "Valor Pessoal Pensionista",
-            "description": "Despesas com pensionistas, relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, com pensões, inclusive as de caráter indenizatório."
+            "description": "Despesas com pensionistas, relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, com pensões, inclusive as de caráter indenizatório.",
+            "decimalChar": ","
           },
           {
             "name": "VR_CONTRATADO",
             "type": "number",
             "format": "default",
             "title": "Valor Contratados",
-            "description": "Despesas relativas à mão-de-obra constantes dos contratos de terceirização, incluindo as contribuições recolhidas pelo ente às entidades de previdência."
+            "description": "Despesas relativas à mão-de-obra constantes dos contratos de terceirização, incluindo as contribuições recolhidas pelo ente às entidades de previdência.",
+            "decimalChar": ","
           }
         ]
       },
@@ -196,7 +200,7 @@
           },
           {
             "name": "ANOMES_FORMATADO",
-            "type": "integer",
+            "type": "string",
             "format": "default",
             "title": "Ano e mês formatado",
             "description": "Ano e mês formatado"
